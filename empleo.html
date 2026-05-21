@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario empleo</title>
+</head>
+<body>
+    <form action="">
+        <h2>Formulario de Empleo</h2>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br><br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" name="apellido" required>
+        <br><br>
+        <label for="correo">Correo Electronico: </label>
+        <input type="email" id="correo" name="correo" required>
+        <br><br>
+        <label for="fechadisp">Fecha Disponibilidad </label>
+        <input type="date" id="fechadisp" name="fechadisp">
+        <br><br>
+        <label for="Nestudio">Nivel de Estudio: </label>
+        <select name="Nestudio" id="Nestudio">
+             <option value="">Selecciona un nivel</option>
+            <option value="primaria">Primaria</option>
+            <option value="secundaria">Secundaria</option>
+            <option value="tecnico">Técnico</option>
+            <option value="universitario">Universitario</option>
+        </select>
+        <br><br>
+        <label for="experiencia">Años de Experiencia: </label>
+        <input type="number" id="experiencia" name="experiencia" min="0" max="50">
+        <br><br>
+        <h3>Lenguajes de Programación</h3>
+        <input type="checkbox" id="Python" name="Python">
+        <label for="Python">Python</label>
+        <input type="checkbox" id="JavaScript" name="JavaScript">
+        <label for="JavaScript">JavaScript</label>
+        <input type="checkbox" id="Java" name="Java">
+        <label for="Java">Java</label>
+        <h3>Carta de presentacion</h3>
+        <label for="carta">Cuentanos sobre ti: </label>
+        <textarea id="carta" name="carta" rows="5" cols="40"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
