@@ -1,6 +1,6 @@
  #SISTEMA DE CONTROL DE EL MATRIMONIO DE EL TIGRE Y OVIEDO
 
-personas = []
+personas = [] 
 limite = 20
 
 while True:
