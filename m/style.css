@@ -1,0 +1,42 @@
+*{
+    font-size: 2rem;
+}
+
+body {
+    background-color: rgb(217, 219, 97);
+}
+
+p {
+    color: white;
+}
+
+.style-p {
+    color: blueviolet;
+}
+
+h1 {
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo-secundario {
+    color: green;
+    text-decoration: underline;
+}
+.test {
+    font-family: cursive;
+}
+
+#parrafo-unico {
+    color: beige;
+    background-color: black;
+}
+
+.caja-modelo {
+    width: 50%;
+    background-color: orange;
+    border: 5px solid black;
+    padding: 20px;
+    margin: 4px 10px 40px 10px;
+    border-radius: 50px;
+}
